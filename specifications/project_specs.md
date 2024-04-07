@@ -4,7 +4,7 @@
 This project 
 
 ## User Stories
-- As _<Manager>_
+- As a **User** i want to __read__ free books
 
 
 
