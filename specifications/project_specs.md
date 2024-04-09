@@ -20,17 +20,6 @@ Is a web application that provides a service of EBook reader where each user can
 - The personal information of the users must be treated confidentially and protect against unauthorized access.
 - Links provided to read books must be verified to avoid security problems for the users.
 
-## Stakeholders
-- Clients: People who are interested in the different types of books.
-- Authors: People who want to get recognition of their books and they can receive a tip.
-- Editorials: Entities that provides the publication rights 
-- Administrators: People who want to improve the number of people using the application and receive more money.
-
-## Business model
-
-Is a web application that provides a service of EBook reader where you can find important information about books, their authors, read opinions from other readers, and also has the book's link to read them. This helps people that are interested in reading books.
-
-
 ## User Stories
 
 - As a __user__ I want to __access__ to a big collection of different books of different authors and genres __to have__ variety.
@@ -41,6 +30,7 @@ Is a web application that provides a service of EBook reader where you can find 
 - As a __author__ I want to __post__ a book __to people see__ what I did.
 - As a __administrator__ I want to __manage__ books of different authors to __keep the quality__ of our books.
 
+
 # Technical Definitions
 
 ## Tools to use
@@ -50,30 +40,54 @@ Is a web application that provides a service of EBook reader where you can find 
 ## Entities
 
 
-- User : name, id, email, password. login(), logout()
-- Administrator(User) : delete_post(), verify_book()
-- Client(User) : saved_bookList. read_book(), post_review(), show_book_catalog()
-- Post : name, id, description, postDate, gender, Author[E]
-- Author(User) : upload_post()
+- User : name, id, email, password. login()
+- Administrator(User) : delete_book(), verify_book()
+- Client(User) : saved_bookList[E]. read_book(), book_review(), show_book_catalog()
+- Book : name, id, description, postDate, gender, state, Author[E], catalogReview[E]
+- Author(User) : upload_book()
 - Book Catalog : Post[E], listBook
 - Saved Book : saved_bookList. delete_savedBook(), add_savedBook()
 - Review : Client[E], reviewDate
-- Catalog Review : listReview. add_review(), delete_review()
+- Catalog Review : listReview
 
 # Processes
 - User Sign-in :
-  
+
+![User Sign-in Activity diagram](/specifications//images/Sign_in_ActivityDiagram.png)
+
 - User Login :
+
+![User Login Activity diagram](/specifications//images/Login_ActivityDiagram.png)
 
 - View Book Catalog :
 
+![View Book Catalog Activity diagram](/specifications//images/bookCatalog_ActivityDiagram.png)
+
 - Save Book :
+
+![Save Book Activity diagram](/specifications//images/saveBook_ActivityDiagram.png)
 
 - Read Book: 
 
+![Read Book Activity diagram](/specifications//images/readBook_ActivityDiagram.png)
+
 - Write Review :
+
+![Write Review Activity diagram](/specifications//images/writeReview_ActivityDiagram.png)
 
 - Delete Post :
 
+
+
+- Upload Book : 
+
+![Upload Book Activity diagram](/specifications//images/uploadBook_ActivityDiagram.png)
+
+- Delete Saved Book :
+
+![Delete Saved Book Activity diagram](/specifications//images/delete_saveBook_ActivityDiagram.png)
+
+- Verify Book : 
    
+![Verify Book Activity diagram](/specifications//images/verifyBook_ActivityDiagram.png)
 
