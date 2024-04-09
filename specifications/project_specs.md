@@ -50,30 +50,54 @@ Is a web application that provides a service of EBook reader where you can find 
 ## Entities
 
 
-- User : name, id, email, password. login(), logout()
-- Administrator(User) : delete_post(), verify_book()
-- Client(User) : saved_bookList. read_book(), post_review(), show_book_catalog()
-- Post : name, id, description, postDate, gender, Author[E]
-- Author(User) : upload_post()
+- User : name, id, email, password. login()
+- Administrator(User) : delete_book(), verify_book()
+- Client(User) : saved_bookList[E]. read_book(), book_review(), show_book_catalog()
+- Book : name, id, description, postDate, gender, state, Author[E], catalogReview[E]
+- Author(User) : upload_book()
 - Book Catalog : Post[E], listBook
 - Saved Book : saved_bookList. delete_savedBook(), add_savedBook()
 - Review : Client[E], reviewDate
-- Catalog Review : listReview. add_review(), delete_review()
+- Catalog Review : listReview
 
 # Processes
 - User Sign-in :
-  
+
+![User Sign-in Activity diagram](/specifications//images/Sign_in_ActivityDiagram.png)
+
 - User Login :
+
+![User Login Activity diagram](/specifications//images/Login_ActivityDiagram.png)
 
 - View Book Catalog :
 
+![View Book Catalog Activity diagram](/specifications//images/bookCatalog_ActivityDiagram.png)
+
 - Save Book :
+
+![Save Book Activity diagram](/specifications//images/saveBook_ActivityDiagram.png)
 
 - Read Book: 
 
+![Read Book Activity diagram](/specifications//images/readBook_ActivityDiagram.png)
+
 - Write Review :
+
+![Write Review Activity diagram](/specifications//images/writeReview_ActivityDiagram.png)
 
 - Delete Post :
 
+
+
+- Upload Book : 
+
+![Upload Book Activity diagram](/specifications//images/uploadBook_ActivityDiagram.png)
+
+- Delete Saved Book :
+
+![Delete Saved Book Activity diagram](/specifications//images/delete_saveBook_ActivityDiagram.png)
+
+- Verify Book : 
    
+![Verify Book Activity diagram](/specifications//images/verifyBook_ActivityDiagram.png)
 
