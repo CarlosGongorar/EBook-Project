@@ -77,7 +77,7 @@ Is a web application that provides a service of EBook reader where each user can
 
 - Delete Post :
 
-
+![Write Review Activity diagram](/specifications//images/DeletePost_ActivityDiagram.png)
 
 - Upload Book : 
 
