@@ -27,7 +27,7 @@ Is a web application that provides a service of EBook reader where each user can
 - As a __user__ I want to __read__ books that I like __to get entertainment__.
 - As a __user__ I want to __save__ books that make me feel interested and __to read__ it after.
 - As a __author__ I want to __get a promotion__ of my new books to __make myself known__ to more people.
-- As a __author__ I want to __post__ a book __to people read__ what I have written.
+- As a __author__ I want to __post__ a book __to people see__ what I did.
 - As a __administrator__ I want to __manage__ books of different authors to __keep the quality__ of our books.
 
 # Technical Definitions
@@ -41,11 +41,11 @@ Is a web application that provides a service of EBook reader where each user can
 
 - User : name, id, email, password. login()
 - Administrator(User) : delete_book(), verify_book()
-- Client(User) : saved_bookList[E], savedBook. read_book(), post_review(), show_book_catalog()
+- Client(User) : saved_bookList[E]. read_book(), book_review(), show_book_catalog()
 - Book : name, id, description, postDate, gender, state, Author[E], catalogReview[E]
 - Author(User) : upload_book()
 - Book Catalog : Post[E], listBook
-- Saved Book : bookList[E]. delete_savedBook(), add_savedBook(), get_bookList()
+- Saved Book : saved_bookList. delete_savedBook(), add_savedBook()
 - Review : Client[E], reviewDate
 - Catalog Review : listReview
 
