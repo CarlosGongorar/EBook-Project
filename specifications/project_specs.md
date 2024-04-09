@@ -20,17 +20,6 @@ Is a web application that provides a service of EBook reader where each user can
 - The personal information of the users must be treated confidentially and protect against unauthorized access.
 - Links provided to read books must be verified to avoid security problems for the users.
 
-## Stakeholders
-- Clients: People who are interested in the different types of books.
-- Authors: People who want to get recognition of their books and they can receive a tip.
-- Editorials: Entities that provides the publication rights 
-- Administrators: People who want to improve the number of people using the application and receive more money.
-
-## Business model
-
-Is a web application that provides a service of EBook reader where you can find important information about books, their authors, read opinions from other readers, and also has the book's link to read them. This helps people that are interested in reading books.
-
-
 ## User Stories
 
 - As a __user__ I want to __access__ to a big collection of different books of different authors and genres __to have__ variety.
@@ -40,6 +29,7 @@ Is a web application that provides a service of EBook reader where you can find 
 - As a __author__ I want to __get a promotion__ of my new books to __make myself known__ to more people.
 - As a __author__ I want to __post__ a book __to people see__ what I did.
 - As a __administrator__ I want to __manage__ books of different authors to __keep the quality__ of our books.
+
 
 # Technical Definitions
 
