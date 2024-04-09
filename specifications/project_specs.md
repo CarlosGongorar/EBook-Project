@@ -20,6 +20,7 @@ Is a web application that provides a service of EBook reader where each user can
 - Links provided to read books must be verified to avoid security problems for the users.
 
 ## User Stories
+
 - As a __user__ I want to __access__ to a big collection of different books of different authors and genres __to have__ variety.
 - As a __user__ I want to __browse__ different books to __improve__ my learning.
 - As a __user__ I want to __read__ books that I like __to get entertainment__.
@@ -32,13 +33,33 @@ Is a web application that provides a service of EBook reader where each user can
 
 ## Tools to use
 
- The backend will be build using _Python 3.12_, some related technologies are _FastAPI_ to simplify and optimize the creation of web services, _SQLAlchemy_  to simplify the interaction with _relational data bases_. _Bootstrap_ to simplify the _frontend_ development and  _Black_ to auto-format the code and increase the understanding.
+ The backend will be build using _Python 3.12_, some related technologies are _FastAPI_ to simplify and optimize the creation of web services, _SQLAlchemy_  to simplify the interaction with _relational data bases_. _Bootstrap, HTML_ and _CSS_ to simplify the _frontend_ development and  _Black_ to auto-format the code and increase the understanding.
   
 ## Entities
-- User: name, id, email, password. login(), logout()
-- Administrator(User): deletePost()
-- Client(User): readPost(), 
-- Post: name, id, uploadDate, gender, Author[E]
-- Author(User): uploadPost(), writePost()
-- Catalog Book: listBook, addPost(), deletePost()
- 
+
+- User : name, id, email, password. login(), logout()
+- Administrator(User) : delete_post()
+- Client(User) : saved_BookList. read_book(), post_review(), show_book_catalog()
+- Post : name, id, description, postDate, gender, Author[E]
+- Author(User) : upload_post()
+- Book Catalog : Post[E], listBook
+- Saved Book : saved_BookList. delete_SavedBook(), add_SavedBook()
+- Review : Client[E], reviewDate
+- Catalog Review : listReview. add_review(), delete_review()
+
+# Processes
+- User Sign-in :
+  
+- User Login :
+
+- View Book Catalog :
+
+- Save Book :
+
+- Read Book: 
+
+- Write Review :
+
+- Delete Post :
+
+   
