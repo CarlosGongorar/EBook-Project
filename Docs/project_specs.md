@@ -30,7 +30,6 @@ Is a web application that provides a service of EBook reader where each user can
 - As a __author__ I want to __post__ a book __to people see__ what I did.
 - As a __administrator__ I want to __manage__ books of different authors to __keep the quality__ of our books.
 
-
 # Technical Definitions
 
 ## Tools to use
