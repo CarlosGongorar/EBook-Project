@@ -51,12 +51,12 @@ Is a web application that provides a service of EBook reader where you can find 
 
 
 - User : name, id, email, password. login(), logout()
-- Administrator(User) : delete_post(), verifyBook()
-- Client(User) : saved_BookList. read_book(), post_review(), show_book_catalog()
+- Administrator(User) : delete_post(), verify_book()
+- Client(User) : saved_bookList. read_book(), post_review(), show_book_catalog()
 - Post : name, id, description, postDate, gender, Author[E]
 - Author(User) : upload_post()
 - Book Catalog : Post[E], listBook
-- Saved Book : saved_BookList. delete_SavedBook(), add_SavedBook()
+- Saved Book : saved_bookList. delete_savedBook(), add_savedBook()
 - Review : Client[E], reviewDate
 - Catalog Review : listReview. add_review(), delete_review()
 
