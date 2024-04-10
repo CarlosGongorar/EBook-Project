@@ -51,76 +51,87 @@ Is a web application that provides a service of EBook reader where each user can
 
 # Processes
 ## Deployment Diagram
-![Deployment Diagram](/Docs//images/DeploymentDiagram.png)
+![Deployment Diagram](/Docs//images//Deployment%20Diagram/DeploymentDiagram.png)
+
 ## Activity Diagram
 - User Sign-in :
 
-![User Sign-in Activity diagram](/Docs//images/Sign_in_ActivityDiagram.png)
+![User Sign-in Activity diagram](/Docs///images//Activity%20Diagrams/Sign_in_ActivityDiagram.png)
 
 - User Login :
 
-![User Login Activity diagram](/Docs//images/Login_ActivityDiagram.png)
+![User Login Activity diagram](/Docs//images//Activity%20Diagrams/Login_ActivityDiagram.png)
 
 - View Book Catalog :
 
-![View Book Catalog Activity diagram](/Docs//images/bookCatalog_ActivityDiagram.png)
+![View Book Catalog Activity diagram](/Docs//images//Activity%20Diagrams/bookCatalog_ActivityDiagram.png)
 
 - Save Book :
 
-![Save Book Activity diagram](/Docs//images/saveBook_ActivityDiagram.png)
+![Save Book Activity diagram](/Docs//images//Activity%20Diagrams/saveBook_ActivityDiagram.png)
 
 - Read Book: 
 
-![Read Book Activity diagram](/Docs//images/readBook_ActivityDiagram.png)
+![Read Book Activity diagram](/Docs//images//Activity%20Diagrams/readBook_ActivityDiagram.png)
 
 - Write Review :
 
-![Write Review Activity diagram](/Docs//images/writeReview_ActivityDiagram.png)
+![Write Review Activity diagram](/Docs//images//Activity%20Diagrams/writeReview_ActivityDiagram.png)
 
 - Delete Post : 
 
-![Delete Post Activity diagram](/Docs//images/DeletePost_ActivityDiagram.png)
+![Delete Post Activity diagram](/Docs//images//Activity%20Diagrams/DeletePost_ActivityDiagram.png)
 
 - Upload Book : 
 
-![Upload Book Activity diagram](/Docs//images/uploadBook_ActivityDiagram.png)
+![Upload Book Activity diagram](/Docs//images//Activity%20Diagrams/uploadBook_ActivityDiagram.png)
 
 - Delete Saved Book :
 
-![Delete Saved Book Activity diagram](/Docs//images/delete_saveBook_ActivityDiagram.png)
+![Delete Saved Book Activity diagram](/Docs//images//Activity%20Diagrams/delete_saveBook_ActivityDiagram.png)
 
 - Verify Book : 
    
-![Verify Book Activity diagram](/Docs//images/verifyBook_ActivityDiagram.png)
+![Verify Book Activity diagram](/Docs//images//Activity%20Diagrams/verifyBook_ActivityDiagram.png)
 
+## Sequence Diagrams
+- Login Sequence Diagrams:
+![Login Admin Sequence Diagram](/Docs//images/Sequence%20Diagrams/login_admin_sequenceDiagram.png)
+![Login Author Sequence Diagram](/Docs//images/Sequence%20Diagrams/login_author_sequenceDiagram.png)
+![Login Client Sequence Diagram](/Docs//images/Sequence%20Diagrams/login_client_sequenceDiagram.png)
+- Sign-In Sequence Diagrams:
+![Sign-In Admin Sequence Diagram](/Docs//images/Sequence%20Diagrams/signIn_admin_sequenceDiagram.png)
+![Sign-In Author Sequence Diagram](/Docs//images/Sequence%20Diagrams/signIn_author_sequenceDiagram.png)
+![Sign-In Client Sequence Diagram](/Docs//images/Sequence%20Diagrams/signIn_client_sequenceDiagram.png)
 ## Class Diagram
 
-![Class Diagram](/Docs//images/ClassDiagram.png)
+![Class Diagram](/Docs//images//Class%20Diagram/ClassDiagram.png)
+
 ## CRC Cards
 - UserCRC:
   
-![User CRC](/Docs//images/UserCRC.png)
+![User CRC](/Docs//images//CRC%20Cards/UserCRC.png)
 
 - AdminCRC:
 
-![Admin CRC](/Docs//images/AdminCRC.png)
+![Admin CRC](/Docs//images//CRC%20Cards/AdminCRC.png)
 
 - AuthorCRC:
 
-![Author CRC](/Docs//images/AuthorCRC.png)
+![Author CRC](/Docs//images//CRC%20Cards/AuthorCRC.png)
 
 - BookCRC:
 
-![Book CRC](/Docs//images/BookCRC.png)
+![Book CRC](/Docs//images//CRC%20Cards/BookCRC.png)
 
 - ClientCRC:
 
-![Client CRC](/Docs//images/ClientCRC.png)
+![Client CRC](/Docs//images//CRC%20Cards/ClientCRC.png)
 
 - SavedBookCRC:
 
-![SavedBook CRC](/Docs//images/SavedBookCRC.png)
+![SavedBook CRC](/Docs//images//CRC%20Cards/SavedBookCRC.png)
 
 ## Entity Relationship Diagram
 
-![Entity Relationship Diagram](/Docs//images/EntityRelationshipDiagram.png)
+![Entity Relationship Diagram](/Docs//images//Entity%20Relationship%20Diagram/EntityRelationshipDiagram.png)
