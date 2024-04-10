@@ -22,13 +22,13 @@ Is a web application that provides a service of EBook reader where each user can
 
 ## User Stories
 
-- As a __user__ I want to __access__ to a big collection of different books of different authors and genres __to have__ variety.
-- As a __user__ I want to __browse__ different books to __improve__ my learning.
-- As a __user__ I want to __read__ books that I like __to get entertainment__.
-- As a __user__ I want to __save__ books that make me feel interested and __to read__ it after.
-- As a __author__ I want to __get a promotion__ of my new books to __make myself known__ to more people.
-- As a __author__ I want to __post__ a book __to people see__ what I did.
-- As a __administrator__ I want to __manage__ books of different authors to __keep the quality__ of our books.
+- As an __user__ I want to __access__ to a big collection of different books of different authors and genres __to have__ variety.
+- As an __user__ I want to __browse__ different books to __improve__ my learning.
+- As an __user__ I want to __read__ books that I like __to get entertainment__.
+- As an __user__ I want to __save__ books that make me feel interested and __to read__ it after.
+- As an __author__ I want to __get a promotion__ of my new books to __make myself known__ to more people.
+- As an __author__ I want to __post__ a book __to people read__ what I write.
+- As an __administrator__ I want to __manage__ books of different authors to __keep the quality__ of our books.
 
 # Technical Definitions
 
@@ -95,19 +95,46 @@ Is a web application that provides a service of EBook reader where each user can
 ![Verify Book Activity diagram](/Docs//images//Activity%20Diagrams/verifyBook_ActivityDiagram.png)
 
 ## Sequence Diagrams
-- Login Sequence Diagrams:
+
+- Login Admin Sequence Diagram:
+
 ![Login Admin Sequence Diagram](/Docs//images/Sequence%20Diagrams/login_admin_sequenceDiagram.png)
+
+- Login Author Sequence Diagram
+
 ![Login Author Sequence Diagram](/Docs//images/Sequence%20Diagrams/login_author_sequenceDiagram.png)
+
+- Login Client Sequence Diagram
+
 ![Login Client Sequence Diagram](/Docs//images/Sequence%20Diagrams/login_client_sequenceDiagram.png)
-- Sign-In Sequence Diagrams:
+
+- Sign-In Admin Sequence Diagram:
+  
 ![Sign-In Admin Sequence Diagram](/Docs//images/Sequence%20Diagrams/signIn_admin_sequenceDiagram.png)
+
+- Sign-In Author Sequence Diagram:
+
 ![Sign-In Author Sequence Diagram](/Docs//images/Sequence%20Diagrams/signIn_author_sequenceDiagram.png)
+
+- Sign-In Client Sequence Diagram:
+
 ![Sign-In Client Sequence Diagram](/Docs//images/Sequence%20Diagrams/signIn_client_sequenceDiagram.png)
+
+## State Diagrams
+
+- User role state diagram:
+
+![User role State Diagram](/Docs//images/State%20Diagrams/client-author_stateDiagram.png)
+
+- Book state diagram:
+
+![Book State Diagram](/Docs//images/State%20Diagrams/hidden-visible_book_stateDiagram.png)
 ## Class Diagram
 
 ![Class Diagram](/Docs//images//Class%20Diagram/ClassDiagram.png)
 
 ## CRC Cards
+
 - UserCRC:
   
 ![User CRC](/Docs//images//CRC%20Cards/UserCRC.png)
