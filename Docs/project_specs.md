@@ -50,43 +50,49 @@ Is a web application that provides a service of EBook reader where each user can
 - Catalog Review : listReview
 
 # Processes
+## Deployment Diagram
+![Deployment Diagram](/Docs//images/DeploymentDiagram.png)
+## Activity Diagram
 - User Sign-in :
 
-![User Sign-in Activity diagram](/specifications//images/Sign_in_ActivityDiagram.png)
+![User Sign-in Activity diagram](/Docs//images/Sign_in_ActivityDiagram.png)
 
 - User Login :
 
-![User Login Activity diagram](/specifications//images/Login_ActivityDiagram.png)
+![User Login Activity diagram](/Docs//images/Login_ActivityDiagram.png)
 
 - View Book Catalog :
 
-![View Book Catalog Activity diagram](/specifications//images/bookCatalog_ActivityDiagram.png)
+![View Book Catalog Activity diagram](/Docs//images/bookCatalog_ActivityDiagram.png)
 
 - Save Book :
 
-![Save Book Activity diagram](/specifications//images/saveBook_ActivityDiagram.png)
+![Save Book Activity diagram](/Docs//images/saveBook_ActivityDiagram.png)
 
 - Read Book: 
 
-![Read Book Activity diagram](/specifications//images/readBook_ActivityDiagram.png)
+![Read Book Activity diagram](/Docs//images/readBook_ActivityDiagram.png)
 
 - Write Review :
 
-![Write Review Activity diagram](/specifications//images/writeReview_ActivityDiagram.png)
+![Write Review Activity diagram](/Docs//images/writeReview_ActivityDiagram.png)
 
-- Delete Post :
+- Delete Post : 
 
-
+![Delete Post Activity diagram](/Docs//images/DeletePost_ActivityDiagram.png)
 
 - Upload Book : 
 
-![Upload Book Activity diagram](/specifications//images/uploadBook_ActivityDiagram.png)
+![Upload Book Activity diagram](/Docs//images/uploadBook_ActivityDiagram.png)
 
 - Delete Saved Book :
 
-![Delete Saved Book Activity diagram](/specifications//images/delete_saveBook_ActivityDiagram.png)
+![Delete Saved Book Activity diagram](/Docs//images/delete_saveBook_ActivityDiagram.png)
 
 - Verify Book : 
    
-![Verify Book Activity diagram](/specifications//images/verifyBook_ActivityDiagram.png)
+![Verify Book Activity diagram](/Docs//images/verifyBook_ActivityDiagram.png)
 
+## Class Diagram
+
+![Class Diagram](/Docs//images/ClassDiagram.png)
