@@ -39,7 +39,7 @@ Is a web application that provides a service of EBook reader where each user can
 ## Entities
 
 
-- User : name, id, email, password. login()
+- User : name, id, email, password, role, login(), sing_in()
 - Administrator(User) : delete_book(), verify_book()
 - Client(User) : saved_bookList[E]. read_book(), book_review(), show_book_catalog()
 - Book : name, id, description, postDate, gender, state, Author[E], catalogReview[E]
@@ -96,3 +96,31 @@ Is a web application that provides a service of EBook reader where each user can
 ## Class Diagram
 
 ![Class Diagram](/Docs//images/ClassDiagram.png)
+## CRC Cards
+- UserCRC:
+  
+![User CRC](/Docs//images/UserCRC.png)
+
+- AdminCRC:
+
+![Admin CRC](/Docs//images/AdminCRC.png)
+
+- AuthorCRC:
+
+![Author CRC](/Docs//images/AuthorCRC.png)
+
+- BookCRC:
+
+![Book CRC](/Docs//images/BookCRC.png)
+
+- ClientCRC:
+
+![Client CRC](/Docs//images/ClientCRC.png)
+
+- SavedBookCRC:
+
+![SavedBook CRC](/Docs//images/SavedBookCRC.png)
+
+## Entity Relationship Diagram
+
+![Entity Relationship Diagram](/Docs//images/EntityRelationshipDiagram.png)
